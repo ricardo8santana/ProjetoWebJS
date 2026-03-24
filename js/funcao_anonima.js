@@ -1,4 +1,4 @@
-//Criando função anonima 
+//Criando função anônima
 const somaValor = function(v1, v2){
     return (v1 + v2)
 }
