@@ -20,3 +20,7 @@ const produtosCaros = produtos.filter(p => p.preco > 50)
 produtosCaros.forEach(p =>{
 console.log(`Lista de valores de produtos caros ${p.nome} - Preco: ${p.preco}`)
 })
+
+const listaMista = [0, "Olá", null, 5, undefined, "Mundo", true]
+const listaLimpa = listaMista.filter(Boolean)
+console.log(listaLimpa)
