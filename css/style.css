@@ -28,18 +28,17 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     background-color: #067459;
 }
-
 .menu{
      display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
    
 }
-
 .menu li{
     
     display: inline;
