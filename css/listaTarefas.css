@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+li{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.concluida{
+    text-decoration: line-through;
+    color: rgb(172, 42, 42);
+}
