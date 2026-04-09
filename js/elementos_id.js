@@ -15,7 +15,6 @@ const elementos = document.getElementsByClassName('subTitulo')
 escrevendoID.innerHTML = "Por outro lado, o desafiador cenário globalizado oferece uma interessante oportunidade para verificação dos paradigmas corporativos."
 titleID.innerHTML = "Gostaria de enfatizar que a determinação clara de objetivos desafia a capacidade de equalização dos níveis de motivação departamental."
 
-
 //Modificando o conteúdo pela tag
 for(let i = 0; i < textos.length; i++){
 textos[i].innerHTML = "Alterado pelo javascript"
