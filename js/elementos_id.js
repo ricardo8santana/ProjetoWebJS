@@ -25,11 +25,9 @@ if(textos[0] > 0){
 }
 
 //Modificando o conteúdo pela classe
-
 for(let i = 0; i < elementos.length; i++){
     elementos[i].innerHTML = "Textos modificados"
 }
-
 
 console.log(escrevendoID)
 console.log(titleID)
