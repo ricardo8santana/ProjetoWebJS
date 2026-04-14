@@ -28,7 +28,7 @@ function adicionarTarefas() {
 
  //Removerr itens da lista
  li.addEventListener("dblclick", ()=> {
-    li.remove
+    li.remove()
  })
 
  //Adicionar itens na lista
