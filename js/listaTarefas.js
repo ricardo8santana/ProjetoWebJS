@@ -4,4 +4,6 @@ const btnAdicionar = document.getElementById("btnAdicionar")
 const listaTarefas = document.getElementById("listaTarefas")
 
 //Função no botão adicionar
-btnAdicionar.addEventListener
+btnAdicionar.addEventListener("click", function(){
+    alert("Clique aqui...")
+})
