@@ -1,6 +1,7 @@
 //Acessando os elementos html por id
-const inputTarefas = document.getElementById('inputTarefas')
-const btnAdicionar = document.getElementById('btnAdicionar')
-const listaTarefas = document.getElementById('istaTarefas')
+const inputTarefas = document.getElementById("inputTarefas")
+const btnAdicionar = document.getElementById("btnAdicionar")
+const listaTarefas = document.getElementById("listaTarefas")
 
-console.log(inputTarefas, btnAdicionar, listaTarefas)
+//Função no botão adicionar
+btnAdicionar.addEventListener
