@@ -5,6 +5,9 @@ body{
     padding: 20px;
     background-color: rgb(28, 155, 113);
 }
+h2{
+  color: #031309;  
+}
 #form-contato{
     max-width: 400px;
     width: 100%;
