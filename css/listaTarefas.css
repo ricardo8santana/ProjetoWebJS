@@ -22,10 +22,13 @@ li{
 }
 .btnEnviar{
     text-decoration: none;
-    background-color: blueviolet;
+    background-color: rgb(113, 14, 206);
     color: white;
     margin-left: 5px;
-    margin-right: 10px;
-    padding: 10px;
+    margin-right: 5px;
+    padding: 3px;
     border-radius: 5px;
+}
+.btnEnviar:hover{
+    background-color: rgb(135, 114, 155);
 }
