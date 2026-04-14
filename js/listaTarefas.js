@@ -20,3 +20,17 @@ function adicionarTarefas() {
     const li = document.createElement("li")
     li.innerText = vTarefas
  }
+
+ //Marcar como concluido
+ li.addEventListener("click", ()=> {
+    li.classList.toggle("concluido")
+ })
+
+ //Removerr itens da lista
+ li.addEventListener("dblclick", ()=> {
+    li.remove
+ })
+
+ //Adicionar itens na lista
+ listaTarefas.appendChild(li)
+ inputTarefas.value = ""
