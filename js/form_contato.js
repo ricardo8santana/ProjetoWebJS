@@ -1,0 +1,15 @@
+document.getElementById('form-contato').addEventListener('submit', function (event){
+    event.preventDefault()// impede o envio real para teste
+
+    const nome = document.getElementById('nome').value
+    const email = document.getElementById('email').value
+    const mensagem = document.getElementById('mensagem').value
+
+    if (nome  && email, mensagem){
+        alert(`Obrigado, ${nome}! Mensagem enviada com sucesso`
+            // toda lógica do sistema 
+        )
+    }else{
+        alert(`Por favor, preencha todos os campos`)
+    }
+})
