@@ -5,7 +5,7 @@ document.getElementById('form-contato').addEventListener('submit', function (eve
     const email = document.getElementById('email').value
     const mensagem = document.getElementById('mensagem').value
 
-    if (nome  && email, mensagem){
+    if (nome  && email && mensagem){
         alert(`Obrigado, ${nome}! Mensagem enviada com sucesso`
             // toda lógica do sistema 
         )
